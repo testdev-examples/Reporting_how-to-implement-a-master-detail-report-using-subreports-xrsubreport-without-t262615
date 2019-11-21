@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.4.0" Ref="1" Name="DetailReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="Products" Version="15.1" FilterString="[CategoryID] = ?CatID" PageWidth="650" PageHeight="1200" PaperKind="Custom" Margins="0, 0, 100, 100">
+  <Bands>
+    <Item1 Ref="2" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="25">
+      <Controls>
+        <Item1 Ref="3" Name="xrTable1" ControlType="XRTable" SizeF="650,25" LocationFloat="0, 0">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="xrTableRow1" Weight="11.5">
+              <Cells>
+                <Item1 Ref="5" Name="xrTableCell1" ControlType="XRTableCell" Text="xrTableCell1" Weight="0.2857142857142857">
+                  <DataBindings>
+                    <Item1 Ref="6" PropertyName="Text" DataMember="Products.ProductName" />
+                  </DataBindings>
+                </Item1>
+                <Item2 Ref="7" Name="xrTableCell2" ControlType="XRTableCell" Text="xrTableCell2" Weight="0.2857142857142857">
+                  <DataBindings>
+                    <Item1 Ref="8" PropertyName="Text" DataMember="Products.UnitPrice" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="9" Name="xrTableCell3" ControlType="XRTableCell" Text="xrTableCell3" Weight="0.2857142857142857">
+                  <DataBindings>
+                    <Item1 Ref="10" PropertyName="Text" DataMember="Products.UnitsOnOrder" />
+                  </DataBindings>
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="11" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="100" />
+    <Item3 Ref="12" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="100" />
+  </Bands>
+  <Parameters>
+    <Item1 Ref="14" Visible="false" Description="Parameter1" ValueInfo="0" Name="CatID" Type="#Ref-13" />
+  </Parameters>
+  <ReportPrintOptions Ref="15" DetailCount="3" />
+  <StyleSheet>
+    <Item1 Ref="16" Name="Title" BorderStyle="Inset" Font="Times New Roman, 20pt, style=Bold" ForeColor="Maroon" BackColor="Transparent" BorderColor="Black" BorderWidthSerializable="1" Sides="None" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Ref="17" Name="FieldCaption" BorderStyle="Inset" Font="Arial, 10pt, style=Bold" ForeColor="Maroon" BackColor="Transparent" BorderColor="Black" BorderWidthSerializable="1" Sides="None" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item3 Ref="18" Name="PageInfo" BorderStyle="Inset" Font="Times New Roman, 10pt, style=Bold" ForeColor="Black" BackColor="Transparent" BorderColor="Black" BorderWidthSerializable="1" Sides="None" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item4 Ref="19" Name="DataField" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Times New Roman, 10pt" ForeColor="Black" BackColor="Transparent" BorderColor="Black" BorderWidthSerializable="1" Sides="None" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v15.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+c3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0ibndpbmRDb25uZWN0aW9uIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJUYWJsZVF1ZXJ5IiBOYW1lPSJQcm9kdWN0cyI+PFRhYmxlIE5hbWU9IlByb2R1Y3RzIj48Q29sdW1uIE5hbWU9IlByb2R1Y3RJRCIgLz48Q29sdW1uIE5hbWU9IlByb2R1Y3ROYW1lIiAvPjxDb2x1bW4gTmFtZT0iU3VwcGxpZXJJRCIgLz48Q29sdW1uIE5hbWU9IkNhdGVnb3J5SUQiIC8+PENvbHVtbiBOYW1lPSJRdWFudGl0eVBlclVuaXQiIC8+PENvbHVtbiBOYW1lPSJVbml0UHJpY2UiIC8+PENvbHVtbiBOYW1lPSJVbml0c0luU3RvY2siIC8+PENvbHVtbiBOYW1lPSJVbml0c09uT3JkZXIiIC8+PENvbHVtbiBOYW1lPSJSZW9yZGVyTGV2ZWwiIC8+PENvbHVtbiBOYW1lPSJEaXNjb250aW51ZWQiIC8+PENvbHVtbiBOYW1lPSJFQU4xMyIgLz48L1RhYmxlPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iUHJvZHVjdHMiPjxGaWVsZCBOYW1lPSJQcm9kdWN0SUQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJQcm9kdWN0TmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJTdXBwbGllcklEIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQ2F0ZWdvcnlJRCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IlF1YW50aXR5UGVyVW5pdCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJVbml0UHJpY2UiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlVuaXRzSW5TdG9jayIgVHlwZT0iSW50MTYiIC8+PEZpZWxkIE5hbWU9IlVuaXRzT25PcmRlciIgVHlwZT0iSW50MTYiIC8+PEZpZWxkIE5hbWU9IlJlb3JkZXJMZXZlbCIgVHlwZT0iSW50MTYiIC8+PEZpZWxkIE5hbWU9IkRpc2NvbnRpbnVlZCIgVHlwZT0iQm9vbGVhbiIgLz48RmllbGQgTmFtZT0iRUFOMTMiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjwvU3FsRGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="13" Content="System.Int32" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
