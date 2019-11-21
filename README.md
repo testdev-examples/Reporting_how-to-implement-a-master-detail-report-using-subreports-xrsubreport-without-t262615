@@ -1,10 +1,10 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
-* [DetailReport.cs](./CS/Reports/DetailReport.cs) (VB: [DetailReport.vb](./VB/Reports/DetailReport.vb))
-* **[MasterReport.cs](./CS/Reports/MasterReport.cs) (VB: [MasterReport.vb](./VB/Reports/MasterReport.vb))**
+* [Form1.cs](./CS/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Form1.cs) (VB: [Form1.vb](./VB/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Form1.vb))
+* [Program.cs](./CS/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Program.cs) (VB: [Program.vb](./VB/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Program.vb))
+* [DetailReport.cs](./CS/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Reports/DetailReport.cs) (VB: [DetailReport.vb](./VB/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Reports/DetailReport.vb))
+* **[MasterReport.cs](./CS/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Reports/MasterReport.cs) (VB: [MasterReport.vb](./VB/Reporting_how-to-implement-a-master-detail-report-using-subreports-xrsubreport-without-t262615/Reports/MasterReport.vb))**
 <!-- default file list end -->
 # How to implement a master-detail report using Subreports (XRSubreport) without parameter bindings
 
