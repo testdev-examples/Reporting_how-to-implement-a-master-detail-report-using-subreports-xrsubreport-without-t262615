@@ -42,6 +42,9 @@
     <Reference Include="DevExpress.Charts.v19.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="DevExpress.CodeParser.v19.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="DevExpress.Data.v19.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
